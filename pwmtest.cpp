@@ -83,5 +83,10 @@ void example_PWM()
 
     std::cout << std::endl << "Percent value is out of range." << std::endl;
 
+}
 
+int main()
+{
+  void example_PWM();
+  return 0;
 }
