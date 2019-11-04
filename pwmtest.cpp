@@ -1,6 +1,7 @@
 #include "BlackPWM.h"
 #include <string>
 #include <iostream>
+#include <unistd.h>
 
 void example_PWM()
 {
@@ -87,6 +88,6 @@ void example_PWM()
 
 int main()
 {
-  void example_PWM();
+  example_PWM();
   return 0;
 }

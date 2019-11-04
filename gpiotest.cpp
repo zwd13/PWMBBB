@@ -12,7 +12,6 @@ int main(int argc, char *argv[]){
 
         gpio_export(LEDGPIO);    // The LED
         gpio_set_dir(LEDGPIO, OUTPUT_PIN);   // The LED is an output
-	gpio_set_dir(ButtonGPIO, INPUT_PIN);   // The push button input
 	
 	// Flash the LED 5 times
 	for(int i=0; i<5; i++){
